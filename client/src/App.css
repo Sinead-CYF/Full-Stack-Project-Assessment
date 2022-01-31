@@ -1,3 +1,95 @@
 .App {
   text-align: center;
+  font-size: 2rem;
 }
+
+header {
+  display: flex;
+  background-color: #254E70;
+  color: white;
+  padding: 1rem;
+}
+
+.logo-wrap {
+  display: flex;
+}
+
+.title-wrapper {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: whitesmoke;
+  /* border: 2ps solid red; */
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  min-width: 300px;
+  width: 28%;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  background-color: transparent;
+  border: hidden;
+}
+
+.inner-wrapper {
+  /* border: 2px solid teal; */
+}
+
+h3 {
+  padding: 0.5rem;
+  /* border: 2px solid rgb(17, 42, 184); */
+  max-width: 300px;
+  height: 5rem;
+  overflow: hidden;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid lightcoral; */
+}
+
+.votes-wrapper {
+  display: flex;
+  /* border: 1px solid hotpink; */
+}
+
+button {
+  padding:0.4rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #254E70;
+  color: white;
+  padding: 0.9rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  width: 4rem;
+}
+
+
