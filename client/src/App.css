@@ -64,7 +64,7 @@ h3 {
   /* border: 1px solid hotpink; */
 }
 
-button {
+.transparent-btn {
   padding:0.4rem;
   background-color: transparent;
   background-repeat: no-repeat;
